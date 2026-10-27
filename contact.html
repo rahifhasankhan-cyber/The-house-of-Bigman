@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Start a project with The House of BigMan creative production house.">
+  <title>Contact — The House of BigMan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement-bar"><span>AUSTRALIA · AVAILABLE FOR SELECT PROJECTS</span><a href="portfolio.html">Explore selected work <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The House of BigMan home"><span class="brand-mark">HB<span>.</span></span><span class="brand-copy"><strong>THE HOUSE OF BIGMAN</strong><small>CREATIVE PRODUCTION HOUSE</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="team.html">Our House</a><a href="portfolio.html">Selected Work</a><a class="nav-cta active" href="contact.html">Start a project <span>↗</span></a></nav>
+  </header>
+  <main class="contact-page">
+    <section class="contact-page-heading section-pad"><div class="section-label"><span>01</span> START A CONVERSATION</div><h1>Let’s make<br><em>something matter.</em></h1><p>You don’t need every detail figured out. Tell us what you have in mind and we’ll take it from there.</p></section>
+    <section class="contact-page-body section-pad">
+      <div class="contact-page-aside"><p class="eyebrow"><span class="eyebrow-line"></span> THE FIRST STEP</p><h2>A good project<br>starts with a<br><em>good conversation.</em></h2><p>Share the idea, the goal, the timing — even if it’s still rough around the edges. We’ll come back to you to discuss what makes sense.</p><div class="contact-aside-card"><span>WHAT HAPPENS NEXT?</span><ol><li>We read through your brief.</li><li>We follow up to clarify the details.</li><li>We shape a practical creative approach.</li></ol></div><a class="underlined-link" href="services.html">Not sure what you need? Explore services <span>↗</span></a></div>
+      <form class="inquiry-form contact-page-form" id="inquiryForm">
+        <div class="form-top"><span>PROJECT ENQUIRY</span><span>* REQUIRED</span></div>
+        <div class="form-row"><label for="name">Your name *</label><input id="name" name="name" type="text" placeholder="Name" autocomplete="name" required minlength="2"></div>
+        <div class="form-row two-col"><div><label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div><div><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" placeholder="+61 ..." autocomplete="tel"></div></div>
+        <div class="form-row"><label for="service">What are you looking to create? *</label><select id="service" name="service" required><option value="">Choose a service division</option>
+            <option>BigMan Weddings — weddings & events</option>
+            <option>BigMan Commercial — corporate, products & campaigns</option>
+            <option>BigMan Hospitality — food, venues & tourism</option>
+            <option>BigMan Property — real estate, architecture & interiors</option>
+            <option>BigMan Studios — film, documentaries, music & interviews</option>
+            <option>BigMan Content — social & monthly content</option>
+            <option>Not sure yet / cross-division project</option></select></div>
+        <div class="form-row two-col"><div><label for="budget">Estimated budget</label><select id="budget" name="budget"><option value="">Select a range</option><option>Under $750</option><option>$750–$1,500</option><option>$1,500–$3,000</option><option>$3,000–$6,000</option><option>$6,000+</option><option>Need guidance</option></select></div><div><label for="date">Ideal project date</label><input id="date" name="date" type="date"></div></div>
+        <div class="form-row"><label for="message">Tell us about the project *</label><textarea id="message" name="message" rows="5" placeholder="The idea, the goal, the location, the feeling..." required minlength="10"></textarea></div>
+        <button class="button button-dark form-submit" type="submit">Send project enquiry <span>↗</span></button><p class="form-disclaimer">This demo form prepares an email in your email app. It does not store or send your information to a server. Confirm the destination email address before launch. Confirm the destination email before launch.</p><div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">HB<span>.</span></span><span class="brand-copy"><strong>THE HOUSE OF BIGMAN</strong><small>CREATIVE PRODUCTION HOUSE</small></span></a><div class="footer-tagline">Every Vision. One House.</div><div class="footer-bottom"><span>© <span id="year"></span> THE HOUSE OF BIGMAN</span><span>INDEPENDENT BY DESIGN.</span><a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">BACK TO TOP ↑</a></div></footer>
+</body></html>
